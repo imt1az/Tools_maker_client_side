@@ -22,6 +22,7 @@ import Portfolio from "./Pages/Shared/Portfolio";
 import Blog from "./Pages/Shared/Blog";
 import Reviews from "./Pages/Shared/Reviews";
 import UpdateProduct from "./Pages/Dashboard/UpdateProduct";
+import Contact from "./Pages/Shared/Contact";
 function App() {
   return <div>
     <Navbar></Navbar>
@@ -30,6 +31,7 @@ function App() {
     <Route path="/portfolio" element={<Portfolio></Portfolio>} />
     <Route path="/blog" element={<Blog></Blog>} />
     <Route path="/reviews" element={<Reviews></Reviews>} />
+    <Route path="/contact" element={<Contact></Contact>} />
     <Route path="/productDetail/:_id" element={<RequireAuth><ProductDetail></ProductDetail></RequireAuth>}></Route>
 
 
