@@ -27,11 +27,11 @@ const Navbar = () => {
               Blog
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="font-semibold focus:bg-slate-500" to="/portfolio">
             My portfolio
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="font-semibold focus:bg-slate-500" to="/reviews">
               Reviews
@@ -94,7 +94,9 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Tool Manufacture</a>
+        <a href="" className=""><a href="">
+              <img src="./images/shop.png" class="w-36" alt="" />
+            </a></a>
       </div>
       <div className="navbar-center hidden lg:flex navbar-end">
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>

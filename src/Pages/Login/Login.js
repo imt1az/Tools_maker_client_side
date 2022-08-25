@@ -50,7 +50,8 @@ const Login = () => {
   }
 
   return (
-    <div className="container  md:mx-auto md:flex justify-center md:h-screen md:items-center flex md:mt-0 md:px-40  p-4 mt-10">
+   <div className="bg-[#DEF6FD]">
+     <div className="container bg-student bg-contain bg-no-repeat bg-[right_0px_top_20px]  md:mx-auto md:flex justify-center md:h-screen md:items-center flex md:mt-0 md:px-40  p-4 mt-10">
       <div className="card md:w-1/2 bg-base-100 shadow-xl w-full">
         <div className="card-body bg-gray-200">
           <h2 className="text-2xl font-bold text-center">Login</h2>
@@ -127,7 +128,7 @@ const Login = () => {
             />
             <div className="text-center py-4">
               <small className="font-semibold">
-                New to Doctors Portal ?{" "}
+                New to Tools ?{" "}
                 <Link to="/register" className="text-primary">
                   Create new account
                 </Link>
@@ -144,6 +145,7 @@ const Login = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
 

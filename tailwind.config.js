@@ -3,8 +3,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'banner': "url('/src/assets/images/banner.jpg')"
-      }
+        'banner': "url('/src/assets/images/banner.jpg')",
+        'student': "url('/src/assets/images/student.png')",
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      },
+      
     },
   },
   plugins: [require("daisyui")],

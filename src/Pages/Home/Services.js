@@ -27,7 +27,7 @@ const Services = () => {
             Tools We Made For Our Customers
           </h1>
         </div>
-        <div className="grid md:grid-cols-3 gap-10 grid-cols-1 justify-items-center md:p-1 p-4">
+        <div className="container mx-auto grid md:grid-cols-4 md:gap-10 gap-5 grid-cols-1 justify-items-center">
 
           {
               products?.map(product=> <Product
